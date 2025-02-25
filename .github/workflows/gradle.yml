@@ -17,6 +17,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: rafaelleal18/gcms_pratica6:webapp
     permissions:
       contents: read
 
